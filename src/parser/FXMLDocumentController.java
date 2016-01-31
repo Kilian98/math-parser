@@ -35,7 +35,7 @@ public class FXMLDocumentController implements Initializable {
         ScriptEngine engine = mgr.getEngineByName("JavaScript");
         String foo = tbInput.getText();
         try {
-            lblSolution.setText(engine.eval(foo).toString());
+            lblSolution.setText("Solution: " + engine.eval(foo).toString());
         } catch (ScriptException ex) {
             lblSolution.setText("an error occured, please check your equation");
         }
