@@ -29,7 +29,7 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private void solve(ActionEvent event) {
 
-        //Beat, till own method works
+        //Beta, till own method works
         
         ScriptEngineManager mgr = new ScriptEngineManager();
         ScriptEngine engine = mgr.getEngineByName("JavaScript");
